@@ -6,3 +6,15 @@
     Message NVARCHAR(MAX),
     Exception NVARCHAR(MAX)
 );
+
+/* See Results
+
+Select * from Logs
+
+*/
+
+/* Clean table , reset
+
+truncate table logs
+
+*/

@@ -47,12 +47,6 @@ Thumbs.db
 ## Ignore XML documentation files
 *.xml
 
-## Ignore project-level references
-*.csproj
-*.vbproj
-*.vcxproj
-*.vcxproj.filters
-
 ## Ignore miscellaneous files
 *.publishsettings
 *.publishproj
