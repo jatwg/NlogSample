@@ -1,0 +1,60 @@
+## Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.sln.docstates
+*obj
+obj
+
+## Ignore build and debugging files
+/bin/
+/obj/
+Debug/
+Release/
+
+## Ignore NuGet packages
+**/packages/
+
+## Ignore .NET and Visual Studio generated files
+*.cache
+*.bak
+*.tmp
+Thumbs.db
+*.log
+
+## Ignore IDE-specific files
+# Visual Studio Code
+.vscode/
+
+# IntelliJ Rider
+.rider/
+
+# Visual Studio for Mac
+*.userprefs
+
+## Ignore operating system files
+.DS_Store
+ehthumbs.db
+Icon\r\r
+Thumbs.db
+
+## Ignore common C# and .NET files
+*.dll
+*.exe
+*.pdb
+*.ilk
+
+## Ignore XML documentation files
+*.xml
+
+## Ignore project-level references
+*.csproj
+*.vbproj
+*.vcxproj
+*.vcxproj.filters
+
+## Ignore miscellaneous files
+*.publishsettings
+*.publishproj
+*.ncrunchproj
+*.dotSettings
