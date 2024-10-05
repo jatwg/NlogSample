@@ -14,6 +14,9 @@ This sample project demonstrates how to configure and use NLog in a .NET 8 appli
 
 ```
 dotnet add package Microsoft.Data.SqlClient
+dotnet add package Microsoft.Extensions.Configuration.Binder
+dotnet add package Microsoft.Extensions.Configuration.CommandLine
+dotnet add package Microsoft.Extensions.Configuration.EnvironmentVariables
 dotnet add package Microsoft.Extensions.Configuration.Json
 dotnet add package Microsoft.Extensions.DependencyInjection
 dotnet add package NLog.Database
