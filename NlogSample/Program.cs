@@ -18,6 +18,7 @@ namespace NLogSample
                 await using var servicesProvider = SetupServices(config);
 
                 var runner = servicesProvider.GetRequiredService<IRunner>();
+                // Perform the tasks
                 await runner.DoActionAsync("Action1");
 
                 Console.WriteLine("Press ANY key to exit");
@@ -51,7 +52,7 @@ namespace NLogSample
         {
             return new ServiceCollection()
                 .AddTransient<IRunner, Runner>()
-                .AddSingleton<IConfiguration>(config)  // Add this line
+                .AddSingleton<IConfiguration>(config)  
                 .AddLogging(loggingBuilder =>
                 {
                     loggingBuilder.ClearProviders();
